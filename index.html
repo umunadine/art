@@ -3,9 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
     <title>Document</title>
 </head>
 <body>
+
+     <div class="form">
+                      
+        <form target="_blank">
+         <div class="message">
+          <label>Name</label>
+           <input class="input" type="text" required name="Name">
+     </div>
+    <div class="personalinfo">
+        <label>Email</label>
+        <input class="email" type="text" required name="Email">
+    </div>
+    <div class="yourmessage">
+        <label>Message</label>
+        <input class="draft" required name="Message"rows="10">
+    </div>
+</div class="send">
+<button type="submit" class="submit">Send</button>
+</form>
+</div>
+
+</body>
     
 </body>
 </html>
+<script src="art/js/jquery-3.5.1.js"></script>
+<script>
+    $(function() {
+        $('.submit').toggle(300);
+    });
