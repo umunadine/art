@@ -8,6 +8,8 @@ html,body,section,div,h2,p{
 
 .photography h1{
 text-indent: 100px;
+font-size:3vw;
+padding:20px 0px 10px 0px ;
 font-family: 'Chilanka', cursive;
 }
 
@@ -29,7 +31,7 @@ font-family: 'Chilanka', cursive;
     display:block;
     margin: 0px auto;
 
-   vertical-align: middle;
+
     
 }
 .container .image{
@@ -45,7 +47,7 @@ font-family: 'Chilanka', cursive;
 .photography .item{
     position: relative;
     padding:5px;
-    align-self: end;
+   
 
 }
 
@@ -86,6 +88,9 @@ font-family: 'Chilanka', cursive;
         font-size:3vw;
         text-indent:15px;
     }    
+    .photography h1{
+        font-size:4vw;
+    }
 } 
 
 =======
