@@ -1,0 +1,32 @@
+h1 {
+  font-size: 50px;
+  font-style: oblique;
+  text-align: center;
+}
+
+body {
+  background-color: blue;
+}
+
+.grid-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-grow: inherit;
+}
+
+.description {
+  display: block;
+}
+
+figcaption {
+  font-style: italic;
+  width: 70%;
+  text-align: center;
+}
+.intro {
+  font-size: 20px;
+  margin-bottom: 80px;
+  text-align: center;
+}
+
