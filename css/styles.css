@@ -6,12 +6,14 @@ html,body,section,div,h2,p{
     box-sizing: border-box;
     font-family: Montserrat,Verdana, Geneva, Tahoma, sans-serif;
 }
-
-/*.photography h1{
-text-indent: 100px;
-font-family: 'Chilanka', cursive;
+h2{
+  text-align: center;
+  text-indent: 100px;
+  color: black;
+  text-transform: uppercase;
+  font-weight: 1000px;
+  font-family: 'Chilanka', cursive;
 }
-*/
 
 .photography .container{
     display: grid;
@@ -127,7 +129,6 @@ font-family: 'Chilanka', cursive;
         font-weight: bold;
         font-size: 30px;
         color:rgb(240,248,255); 
-  
   }
   #about{
     text-align: center;
@@ -158,10 +159,7 @@ color: #fff !important;
   margin: 10px;
 background: transparent !important;
 }
-h2{
-  text-align: center;
-  color: black;
-  text-transform: uppercase;
-  font-weight: bold;
-  font-family: 'Chilanka', cursive;
+#contacts .contacts .contact-overlay h2{
+  color: whitesmoke;
 }
+
