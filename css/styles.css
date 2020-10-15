@@ -1,65 +1,42 @@
 
-.form{
-    border:solid white;
-     width:100%px;
-     margin-left:200px;
-     background-color:white;
-     align-items:center;
-     justify-content:space-around; 
-     color:black;
-   }
-   .input,.draft,.submit,.email{
-    width: 100%; 
-   padding: 12px;  
-   border: 1px solid #ccc; 
-   border-radius: 4px; 
-   box-sizing: border-box; 
-   margin-top: 6px; 
-   margin-bottom: 16px; 
- }
-
 /* UWAMAHORO RACHEL */
 html,body,section,div,h2,p{
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    font-family: Montserrat,Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.photography h1{
+/*.photography h1{
 text-indent: 100px;
 font-family: 'Chilanka', cursive;
 }
+*/
 
 .photography .container{
-
     display: grid;
     width: 80%;
     justify-content: center;
     margin:0px auto;
-   
     grid-template-columns: repeat(4, 1fr);
-     grid-gap: 5%;
-  
- 
+    grid-gap: 5%;
+}
+.description{
+  font-size:12px;
 }
 
 .container img{
-    width: 80%;
+    width: 67%;
     display:block;
     margin: 0px auto;
-
    vertical-align: middle;
     
 }
 .container .image{
-
    padding: 5px 5px;
- 
     background-color:#eee;
-    width: 100%;
-   
+    width: 100%; 
 }
-
 
 .photography .item{
     position: relative;
@@ -67,10 +44,7 @@ font-family: 'Chilanka', cursive;
     align-self: end;
 
 }
-
-
-
-.photography h2{
+.photography h4{
     font-size:17px;
     text-indent:15px;
     margin:5px;
@@ -106,15 +80,12 @@ font-family: 'Chilanka', cursive;
         text-indent:15px;
     }    
 } 
-body{
-    font-family: Montserrat,Verdana, Geneva, Tahoma, sans-serif;
-  }
   header{
     margin:0;
     background-image: url("https://pbs.twimg.com/media/EG-kHE5WkAE7iPz?format=jpg&name=medium");
     background-repeat: no-repeat;
     background-size: cover;
-    height: 510px;
+    height: 550px;
    }
    header>div{
      text-align: center;
@@ -144,12 +115,12 @@ body{
         background: rgb(119,136,153);
         color:rgb(51,51,0);
     }
-  h1{
+  #you>h1{
         font-family: Pacifico;
         font-size: 100px;
         text-transform: uppercase;
         color:	rgb(240,248,255);
-  
+        margin-top: 10px;
     }
   header>div>h3{
         font-family: Dancing Script;
@@ -171,9 +142,9 @@ body{
     z-index: 300;
   background-color: rgba(0,0,0,0.5);
 }
-.contacts h1{
+/*.contacts h1{
 text-indent: 10%;
-}
+}*/
 
 .name::placeholder,
 .email::placeholder, .text::placeholder{
@@ -187,5 +158,10 @@ color: #fff !important;
   margin: 10px;
 background: transparent !important;
 }
-  
-
+h2{
+  text-align: center;
+  color: black;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: 'Chilanka', cursive;
+}
