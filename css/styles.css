@@ -161,5 +161,31 @@ body{
   #about{
     text-align: center;
   }
+  .contact_section{
+    background-image: url("https://cdn.wallpaper.com/main/styles/fp_1540x944/s3/2016/03/f_uk-ireland-exhibit.jpg");
+    background-size:cover;
+    background-position: bottom; 
+    background-repeat: no-repeat;
+  }
+  .contacts {
+    z-index: 300;
+  background-color: rgba(0,0,0,0.5);
+}
+.contacts h1{
+text-indent: 10%;
+}
+
+.name::placeholder,
+.email::placeholder, .text::placeholder{
+color: #fff !important;
+background:rgba(255,255,255,.4);
+
+}
+
+.name, .email, .text{
+color: #fff !important;
+  margin: 10px;
+background: transparent !important;
+}
   
 
