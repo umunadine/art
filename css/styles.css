@@ -1,4 +1,23 @@
 
+.form{
+    border:solid white;
+     width:100%px;
+     margin-left:200px;
+     background-color:white;
+     align-items:center;
+     justify-content:space-around; 
+     color:black;
+   }
+   .input,.draft,.submit,.email{
+    width: 100%; 
+   padding: 12px;  
+   border: 1px solid #ccc; 
+   border-radius: 4px; 
+   box-sizing: border-box; 
+   margin-top: 6px; 
+   margin-bottom: 16px; 
+ }
+
 /* UWAMAHORO RACHEL */
 html,body,section,div,h2,p{
     margin: 0px;
@@ -143,3 +162,4 @@ body{
     text-align: center;
   }
   
+
