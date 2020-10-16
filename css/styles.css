@@ -1,5 +1,6 @@
+
 .form{
-    border:solid white;
+     border:solid white;
      width:100%px;
      margin-left:200px;
      background-color:white;
@@ -7,12 +8,52 @@
      justify-content:space-around; 
      color:black;
    }
-   .input,.draft,.submit,.email{
+   .input,.draft,.email{
     width: 100%; 
    padding: 12px;  
-   border: 1px solid #ccc; 
-   border-radius: 4px; 
-   box-sizing: border-box; 
+   border: 1px solid rgb(22, 22, 22); 
+   border-radius: 4px;  
+    box-sizing: border-box; 
    margin-top: 6px; 
    margin-bottom: 16px; 
+
+   font-family: "Comic Sans MS", cursive, sans-serif;
+   font-size: 25px;
+   letter-spacing: 2px;
+   word-spacing: 2px;
+   color: #000000;
+   font-weight: normal;
+   text-decoration: none;
+   font-style: normal;
+   font-variant: normal;
+   text-transform: none;
  }
+ .contact>h1{
+  text-align: center;
+  margin:0;
+}
+body {
+  background-color: black;
+}
+.submit{
+  padding: 12px;  
+  border: 1px solid rgb(22, 22, 22); 
+  border-radius: 4px;  
+   box-sizing: border-box; 
+  margin-top: 6px; 
+  margin-bottom: 16px; 
+  margin-left:600px;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-size: 20px;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+  color: #000000;
+  font-weight: normal;
+  text-decoration: none;
+  font-style: normal;
+  font-variant: normal;
+  text-transform: none;
+
+ 
+}
+
